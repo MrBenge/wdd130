@@ -1,9 +1,35 @@
-.main-para {
-  font-size: 1.5em;
-  line-height: 1.5em;
+header, footer {
+  text-align: center;
+  background-color: steelblue;
+  padding: 10px;
+  color: white;
 }
 
-#active {
-  background-color: white;
-  color: steelblue ;
+#footer {
+  background-color: steelblue;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+p {
+  width: 100%;
+  font-size: 1.5em;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+a:hover {
+  font-size: 2.5em;
+  color: white;
 }
