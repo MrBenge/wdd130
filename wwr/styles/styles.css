@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Lato&display=swap');
+
 #content {
   max-width: 1600px;
   margin: 0 auto;
@@ -5,6 +7,10 @@
 
 .logo {
   width: 80px;
+}
+
+#logo_link {
+  padding-top: 5px;
 }
 
  #hero-img {
@@ -18,16 +24,20 @@
 body {
   background-color: #FFFECB;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 header {
   background-color: #8c4f40;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 nav a {
   background-color: #FFFECB;
   color: #8c4f40;
   text-decoration: none;
+  padding: 35px;
 }
 
 nav a:hover {
@@ -37,20 +47,24 @@ nav a:hover {
 
 .home-title {
   color: #8c4f40;
+  font-family: 'Bungee Inline';
+  font-size: 2em;
+  margin-top: 10px;
 }
 
 h4 {
   color: #8c4f40;
 }
 
-#hero-msg h1, #hero-msg h4 {
-
-}
-
 .book, .join {
   background-color: #FFFECB;
   color: #386DD1;
   text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 
 .book:hover, .join:hover{
@@ -60,22 +74,28 @@ h4 {
 
 .msg {
   background-color: #FFFECB;
+  padding: 35px;
 }
 
 .msg h2 {
   color: #8c4f40;
+  font-family: 'Bungee Inline';
+  margin: 0;
 }
 
 .msg p {
   color: #8c4f40;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .8em;
+  padding-bottom: 15px;
 }
 
 .button-box {
 
 }
 
-main section {
-
+main section img {
+  box-sizing: border-box;
 }
 
 #background {
@@ -86,6 +106,8 @@ main section {
 footer {
   background-color: #FFFECB;
   color: #8c4f40;
+  padding: 25px 50px;
+  margin-top: 200px;
 }
 
 footer a {
@@ -105,4 +127,20 @@ footer p {
 footer p a:hover {
   text-decoration: underline;
   background-color: #8c4f40;
-}    
+}
+
+footer .social img {
+  padding-top: 15px;
+}
+
+.icon {
+  padding-top: 10px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+  margin: 200px 0;
+}
+
+.card-img {
+  border: 10px solid #000000;
+}
