@@ -22,7 +22,7 @@
 }
 
 #hero-img {
-  width: auto;
+  width: 100%;
 }
 
 #hero-box {
@@ -131,8 +131,7 @@ h4 {
 
 .home-grid {
   display: grid;
-  grid-template-columns: 10 1fr;
-  grid-template-rows: 10 1fr;
+  grid-template-columns: 10, 1fr;
 }
 
 main section img {
@@ -212,6 +211,12 @@ footer .social img {
   opacity: .6;
   transform: scale(1.1);
 }
+
+
+.card-img, .mountains {
+  width: 100%;
+}
+           
 
 .mountains {
   width: 100%;
