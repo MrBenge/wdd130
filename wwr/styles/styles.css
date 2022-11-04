@@ -66,15 +66,14 @@ nav {
 }
 
 nav a {
-  background-color: #FFFECB;
-  color: #8c4f40;
+  color: white;
   text-decoration: none;
   padding: 35px;
 }
 
 nav a:hover {
-  background-color: #8c4f40;
-  color: white;
+  background-color: #FFFECB;
+  color: #8c4f40;
 }
 
 .home-title {
@@ -131,7 +130,7 @@ h4 {
 
 .home-grid {
   display: grid;
-  grid-template-columns: 10, 1fr;
+  grid-template-columns: repeat(10, 1fr);
 }
 
 main section img {
@@ -140,14 +139,14 @@ main section img {
 
 #background {
   height: 725px;
-  background-color: #FFFECB;
-  grid-template-columns: 1/11;
-  grid-template-rows: 4/9;
+  background-color: #8c4f40;
+  grid-column: 1/11;
+  grid-row: 4/9;
 }
 
 footer {
-  background-color: #FFFECB;
-  color: #8c4f40;
+  background-color: #8c4f40;
+  color: #FFFECB;
   padding: 25px 50px;
   margin-top: 200px;
   display: flex;
@@ -156,13 +155,14 @@ footer {
 }
 
 footer a {
-  color: #386DD1;
+  color: #FFFECB;
   text-decoration: none;
+  padding: 5px;
 }
 
 footer a:hover{
-  color: white;
-  background-color: #8c4f40;
+  color: #8c4f40;
+  background-color: white;
 }
 
 footer p {
@@ -184,20 +184,20 @@ footer .social img {
 
 .rivers-card {
   margin: 200px 0;
-  grid-template-columns: 2/4;
-  grid-template-rows: 2/3;
+  grid-column: 2/4;
+  grid-row: 2/3;
 }
 
 .camping-card {
   margin: 200px 0;
-  grid-template-columns: 5/7;
-  grid-template-rows: 2/3;
+  grid-column: 5/7;
+  grid-row: 2/3;
 }
 
 .rapids-card {
   margin: 200px 0;
-  grid-template-columns: 8/10;
-  grid-template-rows: 2/3;
+  grid-column: 8/10;
+  grid-row: 2/3;
 }
 
 .card-img {
@@ -220,8 +220,8 @@ footer .social img {
 
 .mountains {
   width: 100%;
-  grid-template-columns: 2/7;
-  grid-template-rows: 5/8;
+  grid-column: 2/7;
+  grid-row: 5/8;
   box-shadow: 5px 5px 10px #6f7364;
 }
 
