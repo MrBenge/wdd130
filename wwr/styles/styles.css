@@ -112,13 +112,13 @@ h4 {
 }
 
 .msg h2 {
-  color: #8c4f40;
+  color: #FFFECB;
   font-family: 'Bungee Inline';
   margin: 0;
 }
 
 .msg p {
-  color: #8c4f40;
+  color: #FFFECB;
   font-family: Arial, Helvetica, sans-serif;
   font-size: .8em;
   padding-bottom: 15px;
@@ -167,7 +167,7 @@ footer p {
 
 footer p a:hover {
   text-decoration: underline;
-  background-color: #8c4f40;
+  background-color: #FFFECB;
 }
 
 footer .social img {
