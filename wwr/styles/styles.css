@@ -212,13 +212,34 @@ footer .social img {
 .card-img, .mountains {
   width: 100%;
 }
-           
 
 .mountains {
   width: 100%;
   grid-column: 2/7;
   grid-row: 5/8;
   box-shadow: 5px 5px 10px #6f7364;
+}
+
+/* End of Home page */
+
+/* Beginning of blogpage */
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: 20px 500px 20px 200px 20px;
+}
+
+h1 {
+  grid-column: 2/3;
+}
+
+.blog {
+  width: 500px;
+}
+
+.archive {
+  grid-column: 4/5;
+  grid-row: 2/3;
 }
 
 @media screen and (max-width: 900px) {

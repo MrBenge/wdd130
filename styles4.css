@@ -1,0 +1,60 @@
+body {
+  display: block;
+  margin: 0 auto;
+}
+
+.home_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  grid-column: 1/4;
+  
+}
+
+.item1 {
+  grid-column: 1/4;
+  text-align: center;
+}
+
+.item2 {
+  grid-column: 1/4;
+  text-align: center;
+}
+
+.item3 {
+  width:100px;
+  font-size: 1.5em;
+  text-align: center;
+  color: white;
+  background-color: steelblue;
+  grid-column: 1/2;
+}
+
+.item4 {
+  width:100px;
+  font-size: 1.5em;
+  text-align: center;
+  color: white;
+  background-color: steelblue;
+  grid-column: 2/3;
+}
+
+.item5 {
+  width:100px;
+  font-size: 1.5em;
+  text-align: center;
+  color: white;
+  background-color: steelblue;
+  grid-column: 3/4;
+}
+
+h1 {
+  grid-column: 1/4;
+  text-align: center;
+}
+
