@@ -224,22 +224,26 @@ footer .social img {
 
 /* Beginning of blogpage */
 
-.blog-grid {
-  display: grid;
-  grid-template-columns: 20px 500px 20px 200px 20px;
+.blog {
+  text-align: left;
+  display:grid;
+  grid-template-columns: 20px 1000px 100px 200px 20px;
 }
 
 h1 {
   grid-column: 2/3;
+  grid-row: 1/2;
 }
 
-.blog {
-  width: 500px;
+.blog p {
+  width: 1000px;
+  grid-column: 2/3;
+  grid-row: 2/5
 }
 
 .archive {
+  text-align: center;
   grid-column: 4/5;
-  grid-row: 2/3;
 }
 
 @media screen and (max-width: 900px) {
