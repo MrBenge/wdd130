@@ -1,8 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto+Mono&family=Roboto+Slab&family=Rokkitt&display=swap');
+
+body {
+  background-color: #3d3b8e;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
 /*header css----------------------*/
+
+.nav-grid {
+  display: grid;
+  grid-template-columns: 200px repeat(4,1fr);
+  grid-template-rows: repeat(4, 50px);
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #86A5D9;
+  background-size: 100%;
+  color: white;
+  font-size: 1.5em;
+  padding: 25px;
+  grid-column: 2/span 4;
+  grid-row: 2/4;
+}
+
+nav a {
+  width: 100px;
+  margin-left: 100px ;
+  margin-right: 100px;
+  text-align: center;
+  border-radius: 10px;
+  height:30px;
+}
+nav a:hover {
+  background-color: #E0E1DD;
+  color: #3d3b8e;
+}
+
+#logo_link {
+  grid-column: 1/2;
+  grid-row: 1/5;
+  
+}
+
+/*hero area css */
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 100px 1000px 100px 500px 100px;
+}
+
+.button-box {
+  background-color: #86A5D9;
+  font-size: 18px;
+  text-align: center;
+  width: 80px;
+  padding: 15px 15px;
+  margin-left: 60px;
+  border-radius: 30px;
+}
+
+.button-box:hover{
+  background-color: darkgray;
+  color: #3d3b8e;
+}
+
+#hero-image {
+  width: 1000px;
+  margin-left: 50px;
+  grid-column: 2/3;
+  grid-row: 1/3;
+  justify-content: space-around;
+  position: relative;
+}
+
+.hero-box {
+  z-index: -1;
+}
+
+#hero-msg {
+  text-align: center;
+  background-color: #E0E1DD;
+  position: absolute;
+  top: 80%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  border-radius: 10%;
+  grid-column: 2/3;
+  grid-row: 1/3;
+}
+
+.goal-list {
+  background-color: #E0E1DD;
+  width:350px;
+  height: 500px;
+  border-radius: 10px;
+  grid-column: 4/5;
+  margin-right: 100px;
+}
+
+.goal-list h2 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.goal-list ol {
+  font-size: 2em;
+  margin-top: 10px;
+  margin-bottom:10px;
+}
+
 
 /*footer css----------------------*/
 
+footer {
+  display:flex;
+  justify-content: space-around;
+  background-color: #86A5D9;
+  color: white;
+  font-size: 1.5em;
+  padding: 25px;
+}
+
+footer a {
+  width: 100px;
+  text-align: center;
+  border-radius: 10px;
+  height:40px;
+}
+
+footer a:hover {
+  background-color: #E0E1DD;
+  color: #3d3b8e;
+}
+
 /*home main css-------------------*/
+
+.container {
+  position: relative;
+}
+
+.container img {
+  display: block;
+  margin: 0 auto;
+}
+
+.container p {
+  background-color: #E0E1DD;
+  margin: 20px;
+  border-style: solid;
+  border-color: #000;
+  border-radius: 10px;
+  padding: 20px;
+  position: absolute;
+  font-size: 1.5em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 /*blog main css-------------------*/
 
