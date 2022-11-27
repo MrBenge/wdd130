@@ -4,6 +4,11 @@ body {
   background-color: #3d3b8e;
   max-width: 1600px;
   margin: 0 auto;
+  font-family: 'Roboto Mono', 'Lato', Arial;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Rokkit', 'Roboto Slab', Times;
 }
 
 /*header css----------------------*/
@@ -49,7 +54,7 @@ nav a:hover {
 
 .hero-grid {
   display: grid;
-  grid-template-columns: 100px 900px 400px 100px;
+  grid-template-columns: 1fr 900px 450px 1fr;
 }
 
 #hero {
@@ -60,7 +65,7 @@ nav a:hover {
 }
 
 #hero-msg {
-  justify-items: auto;
+  justify-items:center;
   background-color: #E0E1DD;
   width: 200px;
   padding: 10px;
@@ -91,13 +96,13 @@ nav a:hover {
   z-index: -1;
 }
 
-
-
 .goal-list {
   background-color: #E0E1DD;
-  width: 400px;
+  width: 450px;
   border-radius: 10px;
+  padding: 10px;
   grid-column: 3/4;
+  
 }
 
 .goal-list h2 {
@@ -106,9 +111,9 @@ nav a:hover {
 }
 
 .goal-list ol {
-  font-size: 2em;
   margin-top: 10px;
   margin-bottom:10px;
+  font-size: 1.5em;
 }
 
 
