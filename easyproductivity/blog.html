@@ -9,18 +9,19 @@
 </head>
 <body>
   <header>
-    <a id="logo_link" href="index.html">
-      <img class="logo" src="images\easyproductivitylogo.png" alt="Easy Productivity Logo">
-  </a>
-  <nav>
-      <a href="index.html">Home</a>
-      <a href="blog.html">Blog</a>
-      <a href="forum.html">Forum</a>
-      <a href="tools.html">Tools</a>
-  </nav>
+    <div class="nav-grid">
+      <a id="logo_link" href="index.html">
+        <img class="logo" src="images/easyproductivitylogo.png" alt="Easy Productivity Logo">
+      </a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="forum.html">Forum</a>
+        <a href="tools.html">Tools</a> <!--I won't make this page (yet), but I put a link because of the wireframe-->
+      </nav>
+      </div>
   </header>
   <main>
-    <img src="images\rsz_diary.jpg" alt="writing">
     <div class="blogpost">
       <h2>Advice from Cicero</h2>
       <p>
@@ -35,7 +36,8 @@
         Augue ut lectus arcu bibendum at varius. Semper quis lectus nulla at volutpat. Magna etiam tempor orci eu lobortis elementum nibh. Dui ut ornare lectus sit amet est placerat in. Euismod nisi porta lorem mollis aliquam. Etiam sit amet nisl purus in mollis. Sagittis eu volutpat odio facilisis mauris sit. Habitasse platea dictumst quisque sagittis purus. Turpis tincidunt id aliquet risus feugiat in ante. Molestie a iaculis at erat pellentesque adipiscing commodo. Vitae semper quis lectus nulla at volutpat. Consequat id porta nibh venenatis cras sed felis eget. Sed velit dignissim sodales ut eu sem integer.
       </p>
     </div>
-    <img src="images\rsz_chalkboard.jpg" alt="chalkboard">
+    <img id="pic1" src="images\rsz_diary.jpg" alt="writing">
+    <img id="pic2" src="images\rsz_chalkboard.jpg" alt="chalkboard">
     <div class="archive">
       <h3>Archive</h3>
       <ul>
@@ -47,6 +49,8 @@
         <li><a href="#">2017</a></li>
       </ul>
     </div>
+    <a id="previous" href="#" class="previous">&laquo; Previous</a>
+    <a id="next" href="#" class="next">Next &raquo;</a>
   </main>
   <footer>
     <p>Easy Productivity &copy; 2022 - Eric Benge</p>
