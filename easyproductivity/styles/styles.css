@@ -224,6 +224,7 @@ main {
 #previous {
   text-decoration: none;
   color: white;
+  background-color: #86A5D9;
   justify-items: start;
   padding: 8px 8px;
   height: 20px;
@@ -234,6 +235,8 @@ main {
 
 #next {
   text-decoration: none;
+  color: white;
+  background-color: #86A5D9;
   justify-items: end;
   padding: 8px 8px;
   height: 20px;
@@ -242,18 +245,16 @@ main {
   grid-row: 7/8;
 }
 
-
-a:hover {
+#previous:hover {
   background-color: #E0E1DD;
-  color: black;
-  }
-  
-.previous {
-  background-color: #86A5D9;
-  color: black;
+  color: #000;
 }
-  
-  
+
+#next:hover {
+  background-color: #E0E1DD;
+  color: #000;
+}
+
 .round {
   border-radius: 50%;
 }
