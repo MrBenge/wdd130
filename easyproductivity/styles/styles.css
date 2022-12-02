@@ -147,28 +147,24 @@ footer a:hover {
 /*home main css-------------------*/
 
 .container {
-  position: relative;
+  display: grid;
+  grid-template-columns: 250px 1fr 250px;
+  grid-template-rows: 50px 50px 100px 100px 50px 50px;
 }
 
 .container img {
-  display: block;
-  margin: 0 auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  grid-column: 2/3;
+  grid-row: 2/6;
 }
 
 .container p {
   background-color: #E0E1DD;
-  margin: 20px;
   border-style: solid;
   border-color: #000;
   border-radius: 10px;
-  padding: 20px;
-  position: absolute;
   font-size: 1.5em;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  grid-column: 2/3;
+  grid-row: 3/5;
 }
 
 /*blog main css-------------------*/
