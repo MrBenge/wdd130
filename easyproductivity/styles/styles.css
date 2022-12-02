@@ -182,32 +182,43 @@ main {
 .blogpost {
   background-color: #E0E1DD;
   width: 1000px;
+  overflow: scroll;
   border-style: solid;
   border-width: 5px;
   grid-column: 2/7;
   grid-row: 2/7;
+  
 }
 
 #pic1 {
   width: 300px;
   grid-column: 5/6;
   grid-row: 3/4;
+  margin:10px;
 }
 
 #pic2 {
   width: 300px;
   grid-column: 8/9;
-  grid-row: 2/3
+  grid-row: 2/3;
+  border-radius: 10px;
 }
 
 .archive {
   background-color: #E0E1DD;
   width: 300px;
   text-align: center;
-  font-size: 2em;
   border-radius: 30px;
   grid-column: 8/9;
   grid-row: 3/5;
+}
+
+.archive h3 {
+  font-size: 2em;
+}
+
+.archive ul {
+  font-size: 1.5em;
 }
 
 #previous {
