@@ -44,14 +44,10 @@ nav a:hover {
   color: #3d3b8e;
 }
 
-.logo {
-  size: 100%;
-}
 
 #logo_link {
   grid-column: 1/2;
   grid-row: 1/5;
-  
 }
 
 /*hero area css */
