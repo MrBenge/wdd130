@@ -179,7 +179,21 @@ main {
   border-width: 5px;
   grid-column: 2/7;
   grid-row: 2/7;
-  
+  display: grid;
+	grid-template-columns: repeat(6, 1fr);
+}
+
+.blogpost h2 {
+	grid-column: 1/-1;
+	grid-row: 1;
+  font-family: 'Rokkit', 'Roboto Slab', Times;
+}
+.blogpost p {
+	grid-column: 1/5;
+}
+
+.blogpost p:nth-of-type(2), .blogpost p:nth-of-type(3), .blogpost p:nth-of-type(4), .blogpost p:nth-of-type(5) {
+	grid-column: 1/-1;
 }
 
 #pic1 {
