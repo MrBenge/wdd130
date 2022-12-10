@@ -267,4 +267,70 @@ main {
 
 /*forum main css------------------*/
 
+main {
+  display: grid;
+  grid-template-columns: 80px 100px 100px 200px 200px 200px 100px 100px 100px 300px 100px;
+  grid-template-rows: 50px 200px 200px 200px 100px;
+}
+
+.picture_one {
+  width: 1000px;
+  grid-column: 2/9;
+  grid-row: 2/5;
+}
+
+.forum_topics_1 {
+  background-color: #E0E1DD;
+  width: 100%;
+  border-style: solid;
+  border-width: 5px;
+  margin-top: 40px;
+  margin-left: 90px;
+  margin-right: 10px;
+  height: 100px;
+  grid-column: 2/7;
+  grid-row: 2/3;
+}
+
+.forum_topics_2 {
+  background-color: #E0E1DD;
+  width: 100%;
+  border-style: solid;
+  border-width: 5px;
+  margin-top: 40px;
+  margin-left: 90px;
+  margin-right: 10px;
+  height: 100px;
+  grid-column: 2/7;
+  grid-row: 3/4;
+}
+
+.forum_topics_3 {
+  background-color: #E0E1DD;
+  width: 100%;
+  border-style: solid;
+  border-width: 5px;
+  margin-top: 40px;
+  margin-left: 90px;
+  margin-right: 10px;
+  height: 100px;
+  grid-column: 2/7;
+  grid-row: 4/5;
+}
+
+.picture_two {
+  width: 300px;
+  grid-column: 10/11;
+  grid-row: 2/4;
+  margin: 0;
+}
+
+.topics {
+  background-color: #E0E1DD;
+  border-style: solid;
+  border-width: 5px;
+  grid-column: 10/11;
+  grid-row: 3/5;
+}
+
 /*tools main css------------------*/
